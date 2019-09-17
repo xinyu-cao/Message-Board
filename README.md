@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Using Ruby 2.6.3 and Rails 6.0.0
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To create a model, go to the right folder and type the following command in the terminal:
+  $ rails generate model <ModelName> <first feature>:<type> <second feature>:<type> ...
+  
+To create a controller, go to the right folder and type the following command in the terminal:
+  $ rails generate controller<ContollerName>
+  
+To view the existing routes, in the terminal type:
+  $ rake routes
+  
+To run the application, go to the correct folder and type the following command in the terminal
+  $ rails s
+then navigate to your local host
